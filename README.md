@@ -1,5 +1,6 @@
 # WxAddressPicker
 微信小程序 自定义组件 三级联动 多列选择器 自关联 对象数组 ObjectArray 
+![](https://github.com/layasntx/WxAddressPicker/blob/master/show.gif)
 ## 使用方法
 ### 在 Page.json 注册组件
 ~~~
