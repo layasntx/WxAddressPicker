@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "address-picker": "/component/address-picker/address-picker"
+  }
+}

@@ -1,0 +1,10 @@
+<view>
+  <picker mode="multiSelector" bindchange="_onChange" bindcolumnchange="_onColumnChange" value="{{multiIndex}}" range="{{multiArray}}" range-key="areaName">
+    <view class="picker">
+      <slot name="content">
+
+      </slot>
+      <text class="my-class">{{multiArray[0][multiIndex[0]].areaName}}，{{multiArray[1][multiIndex[1]].areaName}}，{{multiArray[2][multiIndex[2]].areaName}}</text>
+    </view>
+  </picker>
+</view>

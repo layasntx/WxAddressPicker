@@ -1,0 +1,5 @@
+<view>
+  <address-picker my-class="Red" ids="{{ids}}" bind:onChange="onChange" bind:onColumnChange="onColumnChange">
+    <text slot="content">你的地址是：</text>
+  </address-picker>
+</view>

@@ -1,0 +1,4 @@
+/**index.wxss**/
+.Red {
+  color: red;
+}
